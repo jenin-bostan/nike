@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.clear {
+    clear: both;
+   
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+
+/* navbar*/
+
+.navbar{
+    height: 0;
+    font-family: -webkit-pictograph ;
+}
+
+.navbar .logo{
+    width: 20%;
+    float: left;
+    margin-top: 22px;
+}
+.navbar .logo img{
+    width: 85px;
+    cursor: pointer;
+
+}
+.navbar .links{
+    width: 50%;
+    float:left ;
+    list-style: none;
+}
+
+.navbar .links li{
+    float: left;
+    padding: 7px;
+    margin-left:20px ;
+    font-weight: 600px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+.navbar .links li:hover{
+    color: hsl(252deg 97%  66%);
+}
+.navbar .search{
+    width: 18%;
+    float: left;
+    margin-top: 26px;
+    margin-left: 110px;
+    color: #ffffffad;
+    cursor: pointer;
+
+}
+.navbar .search span{
+    margin: left 30px; 
+}
+.navbar .icon{
+    float: right;
+    margin-top: 22px;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+}
+.navbar a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+.header{
+    height: 660px;
+    background: url(../images/2.jpg);
+    background-size: cover;
+    padding: 100px 0;
+}
+
+
+.header .text{
+    float: left;
+    width: 50%;
+    margin-top: 100px;
+    font-family: sans-serif;
+}
+.header .text h2{
+    font-size: 50px;
+    color: #fff;
+    width:70% ;
+
+}
+.header .text span:first-of-type{
+    display:inline-block;
+    padding:8px 15px ;
+    border-radius: 17px;
+    margin-right: 25px;
+    cursor: pointer;
+    background-color: #fff;
+
+}
+
+
+.header .text span:last-of-type{
+    color: #ffffffad;
+    cursor: pointer;
+}
+
+
+.header .img-box{
+    width: 50%;
+    float: left;
+    margin-top: 28px;
+
+}
